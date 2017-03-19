@@ -2,11 +2,45 @@
 <p>Php Associative array is nothing just array with user defined key, see the example below</p>
 
 <b>Example</b>
-
+<pre>
 <?php
  
-$Personage=array("Ravi"=>"30","Vishu"=>"21","Harmeet"=>"43");
+$Personage=array("Rahul"=>"33","Vishujeet"=>"11","Harmeet"=>"43");
  
- echo "Ravi is ".$Personage["Ravi"]."Years old"; 
+ echo "Rahul is ".$Personage["Rahul"]."Years old"; 
  
 ?>
+</pre>
+
+<b>Output</b>
+<pre>
+Output 
+Rahul is 33 Years old
+<pre>
+
+<h2>Another Way to define associative Array</h2
+
+<pre>
+ <?php
+	
+$Personage['Ravi']=30;
+	
+$Personage['Vishu']=21;
+	
+$Personage['Harmeet']=43;	 		
+	
+echo "Harmeet is ".$Personage["Ravi"]."Years old"; 
+ 
+
+ <?php
+ 
+$Personage['Ravi']=30;
+ 
+$Personage['Vishu']=21;
+ 
+$Personage['Harmeet']=43; 
+ 
+echo "Harmeet is ".$Personage["Ravi"]."Years old"; 
+ 
+?>
+</pre>
